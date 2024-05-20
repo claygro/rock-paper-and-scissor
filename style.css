@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+
+.heading {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+  color: #273537;
+}
+.btn {
+  font-size: 3.9rem;
+  background-color: #4c6ef5;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  object-fit: cover;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #455cb9;
+}
+.btn:active {
+  background-color: #343c5c;
+}
+#playerDisplay,
+#computerDisplay,
+#resultDisplay {
+  font-size: 50px;
+  color: red;
+}
+body {
+  background-image: url(javier-martinez-hUD0PUczwJQ-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
